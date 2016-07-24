@@ -1,0 +1,5 @@
+{
+    "require-dev": {
+        "mj4444/php_codesniffer_yii2_githook": "dev-master"
+    }
+}
