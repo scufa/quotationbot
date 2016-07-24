@@ -41,8 +41,8 @@ if (!defined('PHP_VERSION') || version_compare(PHP_VERSION, '5.3.0', '<')) {
     die();
 }
 
-require_once plugin_dir_path(__FILE__).'inc/Core.php';
-require_once plugin_dir_path(__FILE__).'inc/functions.php';
+require_once TUT_PLUGIN_DIR.'inc/Core.php';
+require_once TUT_PLUGIN_DIR.'inc/functions.php';
 
 
 \Tutbot\Core::getInstance();

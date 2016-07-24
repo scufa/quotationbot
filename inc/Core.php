@@ -4,7 +4,7 @@ namespace Tutbot;
 
 class Core
 {
-    private static $instance = null; //instance store
+    private static $instance = null;
 
     private function __construct()
     {
